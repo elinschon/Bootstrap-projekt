@@ -17,15 +17,134 @@
 
 <body>
 
+    <!--community-header-->
+    <div class="container my-5 col-md-6 col-lg-7 justify-content-center text-center ft-colo">
+        <h1>Fill your chakra with energy in our community!</h1>
+        <p class="lead">Connect with other crystal lovers from around the world.</p>
+        <p>Fill in the spiritual form below and start <span><b>your</b></span> journey.</p>
+    </div>
+
+    <!--Form-->
+    <div class="form-container m-5 p-3 justify-content-center shadow-lg">
+        <div class="row justify-content-center align-items-center">
+            <div class="row col-lg-5 md-5 text-md-start">
+                <form>
+                    <div class="form-group">
+                        <label for="inputFName">First name</label>
+                        <input type="text" class="form-control" id="inputFName" placeholder="First Name">
+                    </div>
+                    <div class="form-group ">
+                        <label for="inputLName">Last name</label>
+                        <input type="text" class="form-control" id="inputLName" placeholder="Last name">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputEmail4">Email</label>
+                        <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="inputAddress">Energy level</label>
+                        <input type="text" class="form-control" id="inputAddress" placeholder="Energy level">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputCity">Planet</label>
+                        <input type="text" class="form-control" id="inputCity" placeholder="Planet">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputState">Zodiac</label>
+                        <select id="inputState" class="form-control">
+                            <option selected>Choose...</option>
+                            <option>Aries</option>
+                            <option>Taurus</option>
+                            <option>Gemini</option>
+                            <option>Cancer</option>
+                            <option>Leo</option>
+                            <option>Virgo</option>
+                            <option>Libra</option>
+                            <option>Scorpio</option>
+                            <option>Sagittarius</option>
+                            <option>Capricorn</option>
+                            <option>Aquarius</option>
+                            <option>Pisces</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputPassword4">Password</label>
+                        <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputPassword4">Enter password again</label>
+                        <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
+                    </div>
+                    <p class="lead mt-4">I am mostly interested in:</p>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck1">
+                        <label class="form-check-label" for="gridCheck1">
+                            Healing
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck2">
+                        <label class="form-check-label" for="gridCheck2">
+                            Magic
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck3">
+                        <label class="form-check-label" for="gridCheck3">
+                            Black magic
+                        </label>
+                    </div>
+                    <div class="d-grid gap-2 my-4">
+                        <button type="submit" class="btn btn-primary">Create account</button>
+                    </div>
+                </form>
+            </div>
+            <div class="row col-md-5 text-end d-none d-md-block">
+                <img class="img-fluid"
+                    src="https://images.pexels.com/photos/4040638/pexels-photo-4040638.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                    alt="A lot of them">
+            </div>
+        </div>
+    </div>
 
 
+    <!--modal pop-up-->
+    <section class="bg-light mb-5">
+        <div class="container">
+            <div class="text-center">
+                <h2>Subscribe for more</h2>
+                <p>Sign up for our newsletter and get the latest updates on crystals and energies.</p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-8 text-center">
+                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#news-modal">
+                        Register</button>
+                </div>
+            </div>
+        </div>
+    </section>
 
-
-
-
-
-
-
+    <!--THE modal-->
+    <div class="modal fade" id="news-modal" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="modal-title">Get the latest crystals!</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure atque unde vero quisquam
+                        repellendus iusto blanditiis nemo tempora officiis dolores?</p>
+                    <label for="modal-email" class="form-label">E-mail adress</label>
+                    <input type="email" class="form-control" id="modal-email" placeholder="crystals@powers.com">
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 
