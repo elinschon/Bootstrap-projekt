@@ -1,2 +1,5 @@
 ## Ignored files:
 images/*
+
+# VS code files
+.vscode/
